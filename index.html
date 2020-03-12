@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Макет. Блок 1.1</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="bodyPages">
+		<div class="firstSection">
+			<div>
+				<img src="logo.svg" width="150" height="100" class="imgLogo">
+				<img src="bg.jpg" class="imgBg">
+			</div>
+		</div>
+		<div class="secondSection">
+			<h1>Get iintoo it today</h1>
+			<p class="firstParagraph">There is no charge or obligation upon registration.</p>
+			<div class="social">
+				<button class="buttonFacebook"><img src="facebook.svg" width="20" height="25" class="imgFacebook"> <span
+						class="facebookText">Register with Facebook</span></button>
+				<button class="buttonLinkedin"><img src="linkedin.svg" width="20" height="25" class="imgLinkedin"> <span
+						class="linkedinText">Register with Linkedin</span></button>
+			</<button></div>
+			<div class="or">
+				<p>or</p>
+			</div>
+			<div>
+				<form action="#">
+					<div class="form">
+						<div>
+							<label for="email" class="labelEmail">Email</label>
+							<input id="email" type="text">
+						</div>
+						<div>
+							<label for="phone" class="labelPhone">Phone</label>
+							<input id="phone" type="phone">
+						</div>
+					</div>
+					<div>
+						<h2>What type of investor are you?</h2>
+						<p class="secondParagraph">Select the type of investor you are below.</p>
+					</div>
+					<div class="typeOfInvestor">
+						<div>
+							<input id="Individual" type="radio" name="typeOfInvestor" required>
+							<label for="Individual" class="Individual">Individual</label>
+						</div>
+						<div>
+							<input id="Business" type="radio" name="typeOfInvestor" required>
+							<label for="Business" class="Business">Business</label>
+						</div>
+						<div>
+							<input id="IRA" type="radio" name="typeOfInvestor" required>
+							<label for="IRA" class="IRA">IRA</label>
+						</div>
+						<div>
+							<input id="Trust" type="radio" name="typeOfInvestor" required>
+							<label for="Trust" class="Trust">Trust</label>
+						</div>
+					</div>
+					<div class="formTextarea">
+						<textarea name="w" id="w" cols="30" rows="4" class="textarea"></textarea>
+					</div>
+					<div class="formAgree">
+						<input type="checkbox" id="agree">
+						<label for="agree" class="labelAgree">I agree to the terms and receiving notifications from iintoo <a href="#" class="linkView">View full
+								terms</a></label>
+					</div>
+					<div class="create">
+						<button class="createAccount">Create Account</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
